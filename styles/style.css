@@ -227,6 +227,10 @@ h1{
   line-height: 1;
 }
 
+p{
+  font-size: 1em;
+}
+
 .about-header{
   position: relative;
   background-size: cover;
@@ -259,3 +263,26 @@ h1{
   outline: 1px solid hsla(0,0%,100%,.25);
   outline-offset: -8px;
 }
+figure img, figure iframe{
+  outline: 2px solid var(--primary-dark-home);
+  outline-offset: 2px;
+}
+.profiel-foto{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+article > figure {
+  position: relative;
+  float: bottom;
+}
+
+article > p{
+  font-size: 1.40em;
+  margin-left: 1.5em;
+}
+article > h2{
+  margin-left: 1.5em;
+} 
